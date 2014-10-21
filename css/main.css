@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Made by Diego Moreira
+   ========================================================================== */
+
+.bg-top{
+    background: #f00;
+}
+
+.bg-middle{
+    background: #0f0;
+}
+
+.bg-bottom{
+    background: #00f;   
+}
+
+main{
+    height: 500px;
+}
+
+footer{
+    height: 300px;
+}
+
+.cont-logo{
+    height: 50px;
+}
+
+.nav-site{
+    height: 50px
+}
