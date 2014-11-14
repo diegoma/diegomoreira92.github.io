@@ -1,5 +1,8 @@
 var http = require('http');
 var arquivo = require('fs');
+var zip = new require('node-zip')();
+
+zip.file("hello.txt", "hello.txt");
 
 var server = http.createServer(function (req, res) {
                 arquivo.readFile('./index.html', function(err, html){
