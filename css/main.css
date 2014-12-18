@@ -48,5 +48,8 @@
     margin: 0 auto 15px auto;
     width: 150px;
     height: 150px;
+    line-height: 150px;
     background: #0066FF;
+    box-shadow: 0px 2px 15px #222;
+    text-align: center;
 }
