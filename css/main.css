@@ -4,6 +4,10 @@
    Diego Moreira Alves
    ========================================================================== */
 
+.bg-blue{
+    background: #0066FF;
+}
+
 .site-header{
     background: url("../img/bgHeader.png") repeat-x;
     min-height: 205px; 
@@ -24,4 +28,25 @@
     margin: 22px auto 0 auto;
     border-radius: 50%;
     border: none;
+}
+
+.site-skills{
+    background: #333333;
+    padding: 45px 0 30px 0;
+}
+
+.skill-list{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skill-block{
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 150px;
+    height: 150px;
+    background: #0066FF;
 }
