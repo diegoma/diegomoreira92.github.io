@@ -9,7 +9,7 @@
 }
 
 .site-header{
-    background: url("../img/bgHeader.png") repeat-x;
+    background: url("../../img/bgHeader.png") repeat-x;
     min-height: 205px; 
 }
 
@@ -67,9 +67,16 @@
 }
 
 /* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+/*.flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
+}*/
+
+.flip-container:hover, .flip-container.hover{
+    .flipper {
+        transform: rotateY(180deg);
+    }
 }
+
 
 .flip-container, .front, .back {
     width: 150px;
