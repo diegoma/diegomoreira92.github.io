@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/diegoma/diegoma.github.io/issues"
   },
-  "homepage": "https://github.com/diegoma/diegoma.github.io#readme"
+  "homepage": "https://github.com/diegoma/diegoma.github.io#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
