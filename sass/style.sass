@@ -1,10 +1,36 @@
-#main
-  color: #ccc
-  font-size: 0.3em
+*
+	font-family: arial
 
-  a
-    font:
-      weight: bold
-      family: serif
-    &:hover
-      background-color: #eec
+.text-center
+	text-align: center
+
+.mainTitle
+	text-transform: uppercase
+	font-size: 20px
+	color:	#000
+
+#pgBio
+	.bio
+		border-bottom: 1px solid #ccc
+		margin-bottom: 15px
+
+.inline-list
+	text-decoration: none
+	list-style: none
+	padding: 0
+	li
+		float: left
+
+.social-list
+	li + li
+		margin-left: 15px
+	i
+		&::before
+			font-size: 30px 
+	a
+		color: #999
+		transition: color 0.5s
+		text-decoration: none
+		&:hover
+			color: #555
+			
