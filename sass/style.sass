@@ -11,30 +11,75 @@
 	padding: 0
 	list-style: none
 
-hr
-	&.divisor-one
-		border: 0
-		height: 1px
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
-
-#pgBio
-	background: #111
-	color: #888
-	.bio
-		text-align: justify
-		padding: 10px 15px
-		line-height: 2
-
-#pgResume
-	text-align: justify
-	padding: 15px 0 0 0	
-
 .inline-list
 	text-decoration: none
 	list-style: none
 	padding: 0
 	li
 		float: left
+
+.mainTitle
+	font-size: 20px	
+	text-transform: uppercase
+	color:	#111
+
+hr
+	&.divisor-one
+		border: 0
+		height: 1px
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+
+.sectionBlock
+	text-align: justify
+
+.sectionBlock__title
+	text-transform: uppercase
+	text-align: center
+	font-size: 18px
+
+.sectionBlock-dark
+	background: #111
+	color: #888
+
+.bioBlock
+	padding: 15px 0 0 0	
+	line-height: 2
+
+// --
+
+.companyExperience + .companyExperience
+	margin-top: 60px 
+
+// .ce-resume
+
+.ce-titleBlock
+	padding-bottom: 14px
+	border-bottom: 1px solid #ccc
+
+.ce-companyInfo
+	float: left
+
+.ce-title
+	margin: 0
+	padding: 0
+	font-size: 16px
+
+.ce-companyTime
+	margin: 0
+	padding: 0
+	font-size: 12px
+	color: #888
+
+.ce-companyLogo
+	width: 100px
+	height: auto
+	float: right
+
+.ce-workWith
+	margin: 0
+
+
+// --
 
 .social-list
 	li + li
@@ -43,16 +88,12 @@ hr
 		&::before
 			font-size: 30px 
 	a
+		display: inline-block
 		color: #888
 		transition: color 0.5s
 		text-decoration: none
 		&:hover
 			color: #111
-
-.mainTitle
-	font-size: 20px	
-	text-transform: uppercase
-	color:	#111
 
 @media screen and (min-width: 768px)
 
