@@ -92,10 +92,17 @@ hr.divisor-one {
   margin: 0;
 }
 
+.skills-colunm {
+  display: inline-block;
+}
+.skills-colunm:nth-child(odd) {
+  background: #eee;
+}
+
 .social-list li + li {
   margin-left: 15px;
 }
-.social-list i::before {
+.social-list i:before {
   font-size: 30px;
 }
 .social-list a {
