@@ -25,9 +25,12 @@
 }
 
 .mainTitle {
-  font-size: 20px;
+  font-size: 28px;
+  padding: 15px 0;
+  margin: 0 auto;
   text-transform: uppercase;
   color: #111;
+  text-align: center;
 }
 
 hr.divisor-one {
@@ -40,20 +43,47 @@ hr.divisor-one {
   text-align: justify;
 }
 
-.sectionBlock__title {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 18px;
-}
-
-.sectionBlock-dark {
+.sectionBlock--dark {
   background: #111;
   color: #888;
 }
 
+.sb__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  color: #ffc600;
+  height: 200px;
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  font-family: helvetica;
+}
+.sb__title span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sb__title--careerBg {
+  background: url("../images/developmentBanner.jpg") no-repeat center center;
+}
+
+.sb__title--academyBg {
+  background: url("../images/studyingBanner.jpg") no-repeat center center;
+}
+
+.sb__title--skillsBg {
+  background: url("../images/skillsBanner.jpg") no-repeat center center;
+}
+
 .bioBlock {
-  padding: 15px 0 0 0;
   line-height: 2;
+  padding-bottom: 15px;
+}
+.bioBlock p {
+  margin: 0;
 }
 
 .companyExperience + .companyExperience {
@@ -90,13 +120,6 @@ hr.divisor-one {
 
 .ce-workWith {
   margin: 0;
-}
-
-.skills-colunm {
-  display: inline-block;
-}
-.skills-colunm:nth-child(odd) {
-  background: #eee;
 }
 
 .social-list li + li {

@@ -3,7 +3,7 @@ var common = (function () {
 
 	return {  
 		init: function () {
-		  common.ChildHeightFull(".skills-colunm");
+		  // common.ChildHeightFull(".skills-colunm");
 		},
 
 		ChildHeightFull: function(selector){
