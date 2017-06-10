@@ -42,6 +42,9 @@ hr.divisor-one {
 .sectionBlock {
   text-align: justify;
 }
+.sectionBlock.firstSection {
+  padding-top: 85px;
+}
 
 .sectionBlock--dark {
   background: #111;
@@ -60,6 +63,7 @@ hr.divisor-one {
   display: table;
   vertical-align: middle;
   font-family: helvetica;
+  background-size: cover !important;
 }
 .sb__title span {
   display: table-cell;
@@ -136,6 +140,37 @@ hr.divisor-one {
 }
 .social-list a:hover {
   color: #111;
+}
+
+@media screen and (min-width: 768px) {
+  .FixedHeader {
+    position: fixed;
+    z-index: 9999;
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+    background: #000;
+    height: 70px;
+  }
+
+  .FixedMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  .FixedMenu li {
+    float: left;
+  }
+  .FixedMenu li a {
+    display: inline-block;
+    padding: 25px 15px;
+    text-decoration: none;
+    color: #dedede;
+  }
+  .FixedMenu li:hover {
+    background: #333;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
