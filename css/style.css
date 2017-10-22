@@ -60,6 +60,7 @@ hr.divisor-one {
   display: table;
   vertical-align: middle;
   font-family: helvetica;
+  background-size: cover !important;
 }
 .sb__title span {
   display: table-cell;
