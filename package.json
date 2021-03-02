@@ -1,29 +1,21 @@
 {
-  "name": "diegoma.github.io",
+  "name": "with-styled-components",
   "version": "1.0.0",
-  "description": "My gtihub page",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diegoma/diegoma.github.io.git"
-  },
-  "keywords": [
-    "diegoma",
-    "diego",
-    "moreira",
-    "alves"
-  ],
-  "author": "Diego Moreira Alves",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/diegoma/diegoma.github.io/issues"
-  },
-  "homepage": "https://github.com/diegoma/diegoma.github.io#readme",
   "dependencies": {
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0"
-  }
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-is": "^17.0.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
+  },
+  "license": "MIT"
 }
