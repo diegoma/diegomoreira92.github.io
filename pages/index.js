@@ -1,6 +1,9 @@
 import styled from 'styled-components'
-import SiteBackground from '../src/components/SiteBackground';
+import { Grid, Cell } from "styled-css-grid";
+import SiteContainer from '../src/components/SiteBackground';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Menu from '../src/components/Menu'
+import Footer from '../src/components/Footer'
 
 const Title = styled.h1`
   font-size: 30px;
@@ -11,9 +14,20 @@ const Title = styled.h1`
 `
 export default function Home() {
   return (
-    <SiteBackground>
-      <Title>Fale mais...</Title>
-      <GitHubCorner projectUrl="https://github.com/diegoma/diegoma.github.io" />
-    </SiteBackground>
+    <SiteContainer>
+      <Grid style={{ width: '100%' }}>
+        <Cell width={12}> 
+          <GitHubCorner projectUrl="https://github.com/diegoma/diegoma.github.io" />
+        </Cell>
+
+        <Cell width={12}> 
+          <Menu></Menu>
+        </Cell>
+
+        <Cell width={12}> 
+          <Footer></Footer>
+        </Cell>
+      </Grid>
+    </SiteContainer>
   )
 }
