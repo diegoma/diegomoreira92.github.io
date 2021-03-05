@@ -2,10 +2,15 @@ import styled from 'styled-components';
 import { Cell } from "styled-css-grid";
 
 const FooterWrapper = styled.footer`
+    margin-top: 30px;
     width: 100%;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+
+    p {
+        margin-bottom: 20px;
+    }
 `;
 
 const SVGWrapper = styled.svg`
