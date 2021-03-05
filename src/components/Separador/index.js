@@ -1,22 +1,23 @@
 import styled from 'styled-components';
 
-const ContainerSeparador = styled.div`
+const SeparadorWrapper = styled.div`
     width: 100%;
 `;
 
-const LinhaSeparador = styled.div`
+const SeparadorLinha = styled.div`
     border-style: solid;
     border-width: 1px;
-    border-color: #000000;
+    border-color: ${({ theme }) => theme.colors.primary};
+    background-color: ${({ theme }) => theme.colors.primary};
     width: 100%;
 `;
 
 const Separador = () =>
 (
-    <ContainerSeparador>
-        <LinhaSeparador style={{ marginLeft: "-45%"}}></LinhaSeparador>
-        <LinhaSeparador style={{ marginLeft: "45%", marginTop: "5px" }}></LinhaSeparador>
-    </ContainerSeparador>
+    <SeparadorWrapper>
+        <SeparadorLinha style={{ marginLeft: "-45%"}}></SeparadorLinha>
+        <SeparadorLinha style={{ marginLeft: "45%", marginTop: "5px" }}></SeparadorLinha>
+    </SeparadorWrapper>
 );
 
 export default Separador;

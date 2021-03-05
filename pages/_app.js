@@ -1,9 +1,16 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+  html {
+    overflow-x: hidden;
+  }
+  
   body {
     box-sizing: border-box;
+    overflow: hidden;
     line-height: 1;
+    color: ${({ theme }) => theme.colors.primary};
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -56,14 +63,15 @@ const GlobalStyle = createGlobalStyle`
 const theme = {
   colors: {
     "primary": "#000000",
+    "secondary": "#FFFFFF"
   },
 }
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
-      <GlobalStyle />
+    <>      
       <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
     </>

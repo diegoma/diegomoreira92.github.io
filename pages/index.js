@@ -19,7 +19,7 @@ export default function Home() {
       <GitHubCorner projectUrl="https://github.com/diegoma/diegoma.github.io" />
 
       <Grid style={{ width: '100%' }}>
-        <Cell width={12}> 
+        <Cell left={2} width={10}> 
           <Menu></Menu>
         </Cell>
 

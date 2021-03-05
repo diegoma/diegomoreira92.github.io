@@ -2,12 +2,13 @@ import styled from 'styled-components';
 import { Cell } from "styled-css-grid";
 
 const FooterWrapper = styled.footer`
+    box-sizing: border-box;
     margin-top: 30px;
+    padding: 0 10px;
     width: 100%;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
+    font-family: Arial, Helvetica, sans-serif;
+    
     p {
         margin-bottom: 20px;
     }
