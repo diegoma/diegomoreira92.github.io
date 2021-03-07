@@ -14,10 +14,10 @@ const SeparadorLinha = styled.div`
 
 const Separador = () =>
 (
-    <SeparadorWrapper>
-        <SeparadorLinha style={{ marginLeft: "-45%"}}></SeparadorLinha>
-        <SeparadorLinha style={{ marginLeft: "45%", marginTop: "5px" }}></SeparadorLinha>
-    </SeparadorWrapper>
+  <SeparadorWrapper>
+    <SeparadorLinha style={{ marginLeft: "-45%" }}></SeparadorLinha>
+    <SeparadorLinha style={{ marginLeft: "45%", marginTop: "5px" }}></SeparadorLinha>
+  </SeparadorWrapper>
 );
 
 export default Separador;
