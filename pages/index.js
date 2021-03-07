@@ -20,6 +20,9 @@ export default function Home() {
 
         <Cell left={3} width={8}>
           <QuemSouEu quemSouEu={db.quemSouEu} redesSociais={db.redesSociais}></QuemSouEu>
+        </Cell>
+
+        <Cell width={12}>
           <Separador></Separador>
         </Cell>
 
@@ -37,6 +40,9 @@ export default function Home() {
 
         <Cell width={12}>
           <Separador></Separador>
+        </Cell>
+
+        <Cell width={12}>
           <Footer></Footer>
         </Cell>
       </Grid>
