@@ -1,4 +1,6 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import Head from 'next/head';
+import db from '../db.json';
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -60,16 +62,16 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const theme = {
-  colors: {
-    "primary": "#000000",
-    "secondary": "#FFFFFF"
-  },
-}
+const theme = db.theme;
 
 export default function App({ Component, pageProps }) {
   return (
-    <>      
+    <>
+      <Head>
+        <title>
+          {db.siteTitle}
+        </title>
+      </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
