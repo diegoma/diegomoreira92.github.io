@@ -1,0 +1,53 @@
+{
+  "siteTitle": "Diego Moreira Alves",
+  "menuItems": [
+    {
+      "name": "Quem sou eu?",
+      "link": "#quemSouEu"
+    },
+    {
+      "name": "Experiência",
+      "link": "#experiencia"
+    },
+    {
+      "name": "Educação",
+      "link": "#educacao"
+    },
+    {
+      "name": "Carreira",
+      "link": "#carreira"
+    }
+  ],
+  "quemSouEu": {
+    "title": "Quem sou eu?",
+    "image": {
+      "src": "/img/perfil.jpg",
+      "alt": "Imagem de Perfil"
+    },
+    "content": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque laoreet mauris sit amet faucibus. Pellentesque hendrerit tincidunt feugiat. Nam libero mi, pharetra vitae faucibus eget, consectetur condimentum nunc. Praesent vitae consequat mauris, id efficitur urna. Sed pretium ex quam, eleifend consequat metus ornare ut. Ut at massa a lectus sagittis malesuada sit amet id orci. In fringilla ex vitae nibh imperdiet tempor."
+    ]
+  },
+  "experiencia":{
+    "title": "Experiência",
+    "content": [""]
+  },
+  "redesSociais": [
+    {
+      "title": "Linkedin",
+      "link": "https://linkedin.com/in/diegoma",
+      "icon": "/icon/linkedin.svg"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/diegoma",
+      "icon": "/icon/github.svg"
+    }
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF"
+    }
+  }
+}
