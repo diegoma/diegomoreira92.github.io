@@ -3,9 +3,10 @@ import { Grid, Cell } from "styled-css-grid";
 import db from '../db.json';
 import SiteBackground from '../src/components/SiteBackground';
 import GitHubCorner from '../src/components/GitHubCorner';
-import Menu from '../src/components/Menu'
-import QuemSouEu from '../src/components/QuemSouEu'
-import Footer from '../src/components/Footer'
+import Menu from '../src/components/Menu';
+import QuemSouEu from '../src/components/QuemSouEu';
+import Experiencia from '../src/components/Experiencia';
+import Footer from '../src/components/Footer';
 import Separador from '../src/components/Separador';
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
         </Cell>
 
         <Cell left={2} width={10}>
-          {/* Experiência */}
+          <Experiencia experiencia={db.experiencia} habilidades={db.habilidades}></Experiencia>
         </Cell>
 
         <Cell left={2} width={10}>

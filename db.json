@@ -28,9 +28,13 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque laoreet mauris sit amet faucibus. Pellentesque hendrerit tincidunt feugiat. Nam libero mi, pharetra vitae faucibus eget, consectetur condimentum nunc. Praesent vitae consequat mauris, id efficitur urna. Sed pretium ex quam, eleifend consequat metus ornare ut. Ut at massa a lectus sagittis malesuada sit amet id orci. In fringilla ex vitae nibh imperdiet tempor."
     ]
   },
-  "experiencia":{
+  "experiencia": {
     "title": "Experiência",
-    "content": [""]
+    "alignTitle": "left",
+    "content": [
+      "Nulla nec pharetra odio. Vestibulum fermentum, ligula ut sagittis pharetra, purus arcu commodo lectus, hendrerit porta mauris arcu eu justo. Proin malesuada fringilla mauris, eu aliquam arcu iaculis id. Nunc dictum id mauris et rhoncus. Donec vel tellus in nulla condimentum auctor et vel nisl. Proin elementum sagittis dapibus. Vestibulum tincidunt ac magna in sagittis. Duis sed lectus consequat, aliquet lacus et, pulvinar tortor.",
+      "Etiam vel augue convallis, dignissim nisl at, euismod elit. Integer aliquam sagittis porta. Maecenas sollicitudin enim nec pharetra blandit. Sed ornare vehicula est, et rutrum ex venenatis sed. Aenean augue mauris, efficitur quis egestas sed, auctor ullamcorper quam. Fusce quis vestibulum sem. Sed vitae arcu quis magna elementum congue. Integer in sem justo. Duis porta ipsum a urna porta, id rutrum elit sagittis. Fusce semper elit et mi finibus, et ultricies sem interdum. Morbi vulputate sem vitae aliquam vestibulum. In viverra mauris eu purus ullamcorper blandit. Ut dignissim nunc at venenatis cursus. Sed et leo molestie, porttitor est id, eleifend eros. Cras consectetur euismod luctus. Ut mollis fringilla laoreet."
+    ]
   },
   "redesSociais": [
     {
@@ -42,6 +46,44 @@
       "title": "GitHub",
       "link": "https://github.com/diegoma",
       "icon": "/icon/github.svg"
+    }
+  ],
+  "habilidades": [
+    {
+      "title": "C#"
+    },
+    {
+      "title": ".NET FRAMEMORK"
+    },
+    {
+      "title": ".NET CORE"
+    },
+    {
+      "title": "ASP.NET"
+    },
+    {
+      "title": "WEB API 2"
+    },
+    {
+      "title": "MVC"
+    },
+    {
+      "title": "WEB FORMS"
+    },
+    {
+      "title": "POSTGRESQL"
+    },
+    {
+      "title": "HTML"
+    },
+    {
+      "title": "CSS"
+    },
+    {
+      "title": "JAVASCRIPT"
+    },
+    {
+      "title": "SELENIUM"
     }
   ],
   "theme": {
