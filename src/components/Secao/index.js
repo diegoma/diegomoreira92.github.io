@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 const Secao = styled.div`
-  margin-top: 20px;
+  margin-top: 40px;
 
   h3 {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    text-align: ${({ alignTitle }) => alignTitle};
+    float: ${({ floatTitle }) => floatTitle};
     color: ${({ theme }) => theme.colors.primary};
     margin-bottom: 30px;
 
@@ -19,6 +19,10 @@ const Secao = styled.div`
     }
   }
   
+  h3 + * {
+    clear: both;
+  }
+
   p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;

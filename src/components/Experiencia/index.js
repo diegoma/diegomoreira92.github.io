@@ -5,7 +5,7 @@ import Secao from "../Secao";
 
 const Experiencia = function (props) {
   return (
-    <Secao alignTitle={"left"}>
+    <Secao floatTitle={"left"}>
       <h3>
         {props.experiencia.title}
       </h3>
