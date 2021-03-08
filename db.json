@@ -86,6 +86,41 @@
       "title": "SELENIUM"
     }
   ],
+  "educacao": {
+  "title": "Educação",
+  "cursos": [
+    {
+      "instituicao": "Unicamp",
+      "ano": "2019",
+      "titulo": "Especialização em Engenharia de Software",
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    },
+    {
+      "instituicao": "Unicamp",
+      "ano": "2019",
+      "titulo": "Especialização em Engenharia de Software",
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    },
+    {
+      "instituicao": "Unicamp",
+      "ano": "2019",
+      "titulo": "Especialização em Engenharia de Software",
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    },
+    {
+      "instituicao": "Unicamp",
+      "ano": "2019",
+      "titulo": "Especialização em Engenharia de Software",
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    },
+    {
+      "instituicao": "Unicamp",
+      "ano": "2019",
+      "titulo": "Especialização em Engenharia de Software",
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    }
+  ]
+  },
   "theme": {
     "colors": {
       "primary": "#000000",
