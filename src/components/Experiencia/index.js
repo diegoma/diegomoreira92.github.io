@@ -5,10 +5,12 @@ import Secao from "../Secao";
 
 const Experiencia = function (props) {
   return (
-    <Secao floatTitle={"left"}>
-      <h3>
-        {props.experiencia.title}
-      </h3>
+    <Secao alignTitle={"left"}>
+      <header>
+        <h3>
+          {props.experiencia.title}
+        </h3>
+      </header>
       <Grid columns={10}>
         <Cell width={9}>
           {

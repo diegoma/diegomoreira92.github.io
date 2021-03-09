@@ -1,14 +1,7 @@
 import styled from 'styled-components';
+import CaixaConteudo from '../CaixaConteudo';
 
-const CaixaEducacaoWrapper = styled.div`
-  padding: 10px 10px;
-  height: 350px;
-  width: 350px;
-  box-sizing: border-box;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
-  color: ${({ blockType, theme }) => blockType == 0 ?  theme.colors.secondary : theme.colors.primary };
-  background-color: ${({ blockType, theme }) => blockType == 0 ? theme.colors.primary : theme.colors.secondary };
-
+const CaixaEducacaoWrapper = styled(CaixaConteudo)`
   h4 {
     clear: both;
     font-family: Arial, Helvetica, sans-serif;

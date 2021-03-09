@@ -3,11 +3,14 @@ import styled from 'styled-components';
 const Secao = styled.div`
   margin-top: 40px;
 
+  header {
+    text-align: ${({ alignTitle }) => alignTitle};
+  }
+
   h3 {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    float: ${({ floatTitle }) => floatTitle};
+    font-size: 20px;
     color: ${({ theme }) => theme.colors.primary};
     margin-bottom: 30px;
 
