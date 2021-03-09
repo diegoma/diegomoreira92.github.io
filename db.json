@@ -53,10 +53,7 @@
       "title": "C#"
     },
     {
-      "title": ".NET FRAMEMORK"
-    },
-    {
-      "title": ".NET CORE"
+      "title": ".NET"
     },
     {
       "title": "ASP.NET"
@@ -69,6 +66,12 @@
     },
     {
       "title": "WEB FORMS"
+    },
+    {
+      "title": ".NET CORE"
+    },
+    {
+      "title": "ASP.NET CORE"
     },
     {
       "title": "POSTGRESQL"
@@ -87,39 +90,93 @@
     }
   ],
   "educacao": {
-  "title": "Educação",
-  "cursos": [
-    {
-      "instituicao": "Unicamp",
-      "ano": "2019",
-      "titulo": "Especialização em Engenharia de Software",
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    "title": "Educação",
+    "cursos": [
+      {
+        "instituicao": "Unicamp",
+        "ano": "2019",
+        "titulo": "Especialização em Engenharia de Software",
+        "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+      },
+      {
+        "instituicao": "Unicamp",
+        "ano": "2019",
+        "titulo": "Especialização em Engenharia de Software",
+        "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+      },
+      {
+        "instituicao": "Unicamp",
+        "ano": "2019",
+        "titulo": "Especialização em Engenharia de Software",
+        "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+      },
+      {
+        "instituicao": "Unicamp",
+        "ano": "2019",
+        "titulo": "Especialização em Engenharia de Software",
+        "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+      },
+      {
+        "instituicao": "Unicamp",
+        "ano": "2019",
+        "titulo": "Especialização em Engenharia de Software",
+        "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+      }
+    ],
+    "idiomas": {
+      "titulo": "Idiomas",
+      "linguas": [
+        {
+          "titulo": "Português",
+          "nivel": "Fluente"
+        },
+        {
+          "titulo": "Inglês",
+          "nivel": "Avançado"
+        }
+      ]
     },
-    {
-      "instituicao": "Unicamp",
-      "ano": "2019",
-      "titulo": "Especialização em Engenharia de Software",
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
-    },
-    {
-      "instituicao": "Unicamp",
-      "ano": "2019",
-      "titulo": "Especialização em Engenharia de Software",
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
-    },
-    {
-      "instituicao": "Unicamp",
-      "ano": "2019",
-      "titulo": "Especialização em Engenharia de Software",
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
-    },
-    {
-      "instituicao": "Unicamp",
-      "ano": "2019",
-      "titulo": "Especialização em Engenharia de Software",
-      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis. Aliquam volutpat, mauris non aliquam fermentum, urna libero facilisis tortor, eu aliquet enim nulla sit amet leo. Donec eget dolor eros"
+    "cursosAvulsos": {
+      "titulo": "Cursos",
+      "cursos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sagittis odio. Nulla facilisi. Suspendisse ante orci, tempus vitae egestas sit amet, consectetur nec turpis."
     }
-  ]
+  },
+  "carreira": {
+    "title": "Carreira",
+    "empregos": [
+      {
+        "titulo": "Globalthings",
+        "periodo": "05/2018",
+        "cargo": "Analista Programador",
+        "conteudo": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque laoreet mauris sit amet faucibus. Pellentesque hendrerit tincidunt feugiat. Nam libero mi, pharetra vitae faucibus eget, consectetur condimentum nunc. Praesent vitae consequat mauris, id efficitur urna. Sed pretium ex quam, eleifend consequat metus ornare ut. Ut at massa a lectus sagittis malesuada sit amet id orci. In fringilla ex vitae nibh imperdiet tempor."
+        ]
+      },
+      {
+        "titulo": "ITBroker",
+        "periodo": "02/2017 - 10/2017",
+        "cargo": "Analista Programador Jr.",
+        "conteudo": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque laoreet mauris sit amet faucibus. Pellentesque hendrerit tincidunt feugiat. Nam libero mi, pharetra vitae faucibus eget, consectetur condimentum nunc. Praesent vitae consequat mauris, id efficitur urna. Sed pretium ex quam, eleifend consequat metus ornare ut. Ut at massa a lectus sagittis malesuada sit amet id orci. In fringilla ex vitae nibh imperdiet tempor."
+        ]
+      },
+      {
+        "titulo": "Inspira Tecnologia",
+        "periodo": "10/2012 - 10/2016",
+        "cargo": "Analista Programador Jr. | Estagiário",
+        "conteudo": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque laoreet mauris sit amet faucibus. Pellentesque hendrerit tincidunt feugiat. Nam libero mi, pharetra vitae faucibus eget, consectetur condimentum nunc. Praesent vitae consequat mauris, id efficitur urna. Sed pretium ex quam, eleifend consequat metus ornare ut. Ut at massa a lectus sagittis malesuada sit amet id orci. In fringilla ex vitae nibh imperdiet tempor."
+        ]
+      },
+      {
+        "titulo": "D'exito Confecções",
+        "periodo": "02/2012 - 09/2012",
+        "cargo": "Web Designer Jr.",
+        "conteudo": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque laoreet mauris sit amet faucibus. Pellentesque hendrerit tincidunt feugiat. Nam libero mi, pharetra vitae faucibus eget, consectetur condimentum nunc. Praesent vitae consequat mauris, id efficitur urna. Sed pretium ex quam, eleifend consequat metus ornare ut. Ut at massa a lectus sagittis malesuada sit amet id orci. In fringilla ex vitae nibh imperdiet tempor."
+        ]
+      }
+    ]
   },
   "theme": {
     "colors": {
