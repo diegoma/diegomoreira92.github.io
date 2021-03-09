@@ -7,6 +7,7 @@ import Menu from '../src/components/Menu';
 import QuemSouEu from '../src/components/QuemSouEu';
 import Experiencia from '../src/components/Experiencia';
 import Educacao from '../src/components/Educacao';
+import Carreira from '../src/components/Carreira';
 import Footer from '../src/components/Footer';
 import Separador from '../src/components/Separador';
 
@@ -40,7 +41,8 @@ export default function Home() {
         </Cell>
 
         <Cell left={2} width={10}>
-          {/* Carreira */}
+          <span id="carreira"></span>
+          <Carreira carreira={db.carreira}></Carreira>
         </Cell>
 
         <Cell width={12}>
